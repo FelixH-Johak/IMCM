@@ -21,3 +21,16 @@
 
  - dann in GitHub-Desktop das lokale Repository hinzufügen. (*File > Add Local Repository*)
  - nun kann über die Schaltflächen **Commit to main** und **Push origin**   der aktuelle Veränderungen der Dateien ins Repository hochgeladen werden.
+
+
+
+ ## Statische und Dynamische Websites
+
+In den 1990er Jahren wurden Websites überwiegend statisch erstellt. Inhalte wurden als html-files auf einen Webserver hochgeladen. Bei jedem Aufruf der Website wurde das `html-file`, unabhängig davon, wer die Seite besuchte. Solche Websites werden als statische Websites bezeichnet.
+
+ ![alt text](image.png)
+ 
+
+ Die Abbildung zeigt, die Funktionsweise von statischen Websites. Zuerst muss der Domain-Name über das Domain Name System (DNS) in die IP-Adresse des Webservers aufgelöst werden (Schritt 1 und 2 in der Abbildung dargestellt).  Danach schickt der Client eine https-Anfrage an den entsprechenden Webserver und erhält von diesem eine http-Antwort, die überlicherweise zuerst die `index.htm`  enthält (Schritt 3 und 4)
+
+ ![alt text](image-1.png "Beschreibung des Bildes")
