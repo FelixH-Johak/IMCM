@@ -26,11 +26,11 @@
 
  ## Statische und Dynamische Websites
 
-In den 1990er Jahren wurden Websites überwiegend statisch erstellt. Inhalte wurden als html-files auf einen Webserver hochgeladen. Bei jedem Aufruf der Website wurde das `html-file`, unabhängig davon, wer die Seite besuchte. Solche Websites werden als statische Websites bezeichnet.
+In den 1990er Jahren wurden Websites überwiegend statisch erstellt. Inhalte wurden als html-files auf einen Webserver hochgeladen. Bei jedem Aufruf der Website wurde das `html-file` dupliziert, unabhängig davon, wer die Seite besuchte. Solche Websites werden als statische Websites bezeichnet.
 
  ![alt text](image.png)
  
 
  Die Abbildung zeigt, die Funktionsweise von statischen Websites. Zuerst muss der Domain-Name über das Domain Name System (DNS) in die IP-Adresse des Webservers aufgelöst werden (Schritt 1 und 2 in der Abbildung dargestellt).  Danach schickt der Client eine https-Anfrage an den entsprechenden Webserver und erhält von diesem eine http-Antwort, die überlicherweise zuerst die `index.htm`  enthält (Schritt 3 und 4)
 
- ![alt text](image-1.png "Beschreibung des Bildes")
+Ab den 2000er jahren setzten sich zunehmend dynamische Websites durch. Bei dynamischen Websites wird der Inhalt nicht mehr als statisches `html-file` auf dem Webserver gespeichert, sondern bei jedem Aufruf der Website dynamisch generiert. Dies ermöglicht personalisierte Inhalte und Interaktionen mit Datenbanken.
