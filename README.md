@@ -35,4 +35,6 @@ In den 1990er Jahren wurden Websites überwiegend statisch erstellt. Inhalte wur
 
 Ab den 2000er jahren setzten sich zunehmend dynamische Websites durch. Bei dynamischen Websites wird der Inhalt nicht mehr als statisches `html-file` auf dem Webserver gespeichert, sondern bei jedem Aufruf der Website dynamisch generiert. Dies ermöglicht personalisierte Inhalte und Interaktionen mit Datenbanken.
 
+Der Ablauf der Seitenerstellung ist in der folgenden Abbildung dargestellt. Die URL-Auflösung mittels DNS-Anfrage funktioniert gleich wie bei statischen Websites (lila in der Grafik). Der Webserver braucht bei dynamischen Websites aber Unterstüzung durch eine serverseitige Programmier- bzw. Skriptsprache.
+
 ![alt text](image-3.png)
